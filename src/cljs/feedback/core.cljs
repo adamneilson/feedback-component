@@ -40,25 +40,25 @@
                  f5 tc ba b--light-gray w-50 pa2 center br3"
           :dir="ltr"}
     [:div {:class "reaction-prompt gray"}
-      (if (:chosen @app-state)
+     (if (:chosen @app-state)
        [:a {:class " "
             :on-click #(do (reset! app-state unset-selected))}"Thanks!"]
-        "How would you rate this?")]
-    [:span {:class (reaction-classes :love)
-            :on-click #(do (select-reaction :love))}
-     [:span {:title "shit_face"} "😍"]]
-    [:span {:class (reaction-classes :smiley)
-            :on-click #(do (select-reaction :smiley))}
-     [:span {:title "shit_face"} "😃"]]
-    [:span {:class (reaction-classes :neutral)
-            :on-click #(do (select-reaction :neutral))}
-     [:span {:title "shit_face"} "😐"]]
+       "How would you rate this?")]
+    [:span {:class (reaction-classes :shit)
+            :on-click #(do (select-reaction :shit))}
+     [:span {:title "shit_face"} "💩"]]
     [:span {:class (reaction-classes :disappointed)
             :on-click #(do (select-reaction :disappointed))}
      [:span {:title "shit_face"} "😞"]]
-    [:span {:class (reaction-classes :shit)
-            :on-click #(do (select-reaction :shit))}
-     [:span {:title "shit_face"} "💩"]]]])
+    [:span {:class (reaction-classes :neutral)
+            :on-click #(do (select-reaction :neutral))}
+     [:span {:title "shit_face"} "😐"]]
+    [:span {:class (reaction-classes :smiley)
+            :on-click #(do (select-reaction :smiley))}
+     [:span {:title "shit_face"} "😃"]]
+    [:span {:class (reaction-classes :love)
+            :on-click #(do (select-reaction :love))}
+     [:span {:title "shit_face"} "😍"]]]])
 
 
 
