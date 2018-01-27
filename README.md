@@ -1,10 +1,13 @@
 # Feedback Component
 
-![](http://snappyimages.nextwavesrl.netdna-cdn.com/img/56af0490e144fcbad47dea57185eebec.png)
+![](https://s3.eu-central-1.amazonaws.com/sms-composer.wefarm.org/img/screener.jpg)
 
 A simple Feedback component written in ClojureScript.
 
-![](http://snappyimages.nextwavesrl.netdna-cdn.com/img/097f821a0d8b3b9906f5a15eb63ea95e.png)
+![](https://s3.eu-central-1.amazonaws.com/sms-composer.wefarm.org/img/screener2.jpg)
+
+[Running example here](https://s3.eu-central-1.amazonaws.com/sms-composer.wefarm.org/feedback/index.html)
+
 
 ## Development Mode
 
